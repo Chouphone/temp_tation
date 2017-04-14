@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
 	Max_lenth = atoi(argv[1]);
 	ReadDbs(TRAINING);
 	ReadDbs(TARGET);
-	stat_Unique();
+	Stat_Unique();
 	Fre_Analusis();
 	printf("Total Unique Chunk:%d\nInvolved Chunk:%d\nCorrect Chunk:%d\n", Unique, Involved, Correct);
 	return 0;
